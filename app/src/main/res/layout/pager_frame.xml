@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/black_alpha">
+
+    <android.ssoim.com.infinitecarouselimagepager.utils.CustomLayout
+        android:id="@+id/cr_root"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/cr_org_img"
+            android:background="@drawable/img_barcelona_org"
+            android:layout_centerInParent="true"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent" />
+
+        <LinearLayout
+            android:id="@+id/cr_dots"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="60dp"/>
+
+
+    </android.ssoim.com.infinitecarouselimagepager.utils.CustomLayout>
+
+</RelativeLayout>
